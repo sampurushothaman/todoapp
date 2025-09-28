@@ -2,7 +2,10 @@ import React from 'react'
 
 function App() {
   return (
-    <div>App</div>
+   
+    <div>
+       <h1>to do app</h1>
+      App</div>
   )
 }
 
