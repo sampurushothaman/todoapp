@@ -1,0 +1,100 @@
+/* Container styling */
+div {
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Input group styling */
+div > input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+div > button {
+  margin-left: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* List item (card) */
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  background-color:white;
+}
+
+/* Index spacing */
+ul li span:first-child {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Task text stretches in the middle */
+ul li span:nth-child(2) {
+  flex: 1;
+}
+
+/* Button container aligned to end */
+ul li > div {
+  display: flex;
+  gap: 5px;            /* small gap between buttons */
+  margin-left: auto;    /* push buttons to the far right */
+}
+
+/* Buttons styling */
+ul li > div > button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Edit button */
+ul li > div > button:first-child {
+  background-color: gray;  /* blue */
+  color: #fff;
+}
+
+/* Delete button */
+ul li > div > button:last-child {
+  background-color: #f44336;  /* red */
+  color: #fff;
+}
+
+/* Optional: hover effects for buttons */
+ul li > div > button:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+/* Optional: hover effect for card */
+ul li:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+} 
